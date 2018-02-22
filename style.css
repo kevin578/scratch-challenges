@@ -1,0 +1,34 @@
+
+
+
+.finishButton {
+  width: 75px;
+  height: 35px;
+  background: green;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.levelContainer {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.notCompleted > #finishStatus {
+  display: none;
+}
+
+.completed > p, .completed > h2, .completed > h3, .completed > img {
+  display: none;
+  transition: .5s;
+}
+
+.completed > #finishStatus {
+  display:block;
+  background: green;
+  height: 50px;
+  width: 400px;
+}
